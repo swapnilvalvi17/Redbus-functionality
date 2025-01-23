@@ -13,6 +13,8 @@ public class BaseLayerClassFC {
 	
 	public static void initialization(String browserName, String url) {
 		
+		System.out.println("shruti upadate");
+		
 		if (browserName.equals("chrome")) 
 		{
 			System.setProperty("webdriver.chrome.driver",
