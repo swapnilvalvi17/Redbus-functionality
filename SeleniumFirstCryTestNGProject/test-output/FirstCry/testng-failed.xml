@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FirstCry]" guice-stage="DEVELOPMENT">
+  <parameter name="Url" value="https://www.firstcry.com/"/>
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Producttype" value="soft toy"/>
+    <parameter name="Quantity" value="3"/>
+    <parameter name="Pincode" value="412715"/>
+    <classes>
+      <class name="com.firstCryTestLayerPackage.ProductPageTest">
+        <methods>
+          <include name="verifyingProductPageOperations" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.firstCryTestLayerPackage.ProductPageTest -->
+      <class name="com.firstCryTestLayerPackage.CartPageTest">
+        <methods>
+          <include name="verifyingCartClassOperations" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.firstCryTestLayerPackage.CartPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FirstCry] -->

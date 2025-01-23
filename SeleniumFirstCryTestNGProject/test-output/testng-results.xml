@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-21T01:50:58 IST" name="FirstCry" finished-at="2024-12-21T01:51:26 IST" duration-ms="27911">
+    <groups>
+    </groups>
+    <test started-at="2024-12-21T01:50:58 IST" name="Test" finished-at="2024-12-21T01:51:26 IST" duration-ms="27911">
+      <class name="com.firstCryTestLayerPackage.CartPageTest">
+        <test-method signature="verifyingCartClassOperations(java.lang.String,int)[pri:1, instance:com.firstCryTestLayerPackage.CartPageTest@72967906]" started-at="2024-12-21T01:51:23 IST" name="verifyingCartClassOperations" finished-at="2024-12-21T01:51:26 IST" duration-ms="2623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[412715]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingCartClassOperations -->
+      </class> <!-- com.firstCryTestLayerPackage.CartPageTest -->
+      <class name="com.firstCryTestLayerPackage.HomePageTesting">
+        <test-method is-config="true" signature="initializingBrowser(java.lang.String,java.lang.String)[pri:0, instance:com.firstCryTestLayerPackage.HomePageTesting@223191a6]" started-at="2024-12-21T01:50:48 IST" name="initializingBrowser" finished-at="2024-12-21T01:50:58 IST" duration-ms="9961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.firstcry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializingBrowser -->
+        <test-method signature="verifyingHomePageOperations(java.lang.String)[pri:1, instance:com.firstCryTestLayerPackage.HomePageTesting@223191a6]" started-at="2024-12-21T01:50:58 IST" name="verifyingHomePageOperations" finished-at="2024-12-21T01:51:07 IST" duration-ms="9608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[soft toy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingHomePageOperations -->
+        <test-method is-config="true" signature="closingTheBrowser()[pri:0, instance:com.firstCryTestLayerPackage.HomePageTesting@223191a6]" started-at="2024-12-21T01:51:26 IST" name="closingTheBrowser" finished-at="2024-12-21T01:51:26 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingTheBrowser -->
+      </class> <!-- com.firstCryTestLayerPackage.HomePageTesting -->
+      <class name="com.firstCryTestLayerPackage.ProductPageTest">
+        <test-method signature="verifyingProductPageOperations(int)[pri:1, instance:com.firstCryTestLayerPackage.ProductPageTest@1a482e36]" started-at="2024-12-21T01:51:07 IST" name="verifyingProductPageOperations" finished-at="2024-12-21T01:51:23 IST" duration-ms="15628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingProductPageOperations -->
+      </class> <!-- com.firstCryTestLayerPackage.ProductPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- FirstCry -->
+</testng-results>
