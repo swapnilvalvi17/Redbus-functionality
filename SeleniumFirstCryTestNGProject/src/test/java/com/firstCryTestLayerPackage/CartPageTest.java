@@ -12,7 +12,7 @@ public class CartPageTest extends BaseLayerClassFC{
 	@Test(priority=1)
 	public void verifyingCartClassOperations(String pincode, int quantity) throws InterruptedException {
 		CartClassFC cc = new CartClassFC();
-		cc.pinAndRemove("415712", 3);
+		cc.pinAndRemove("411033", 3);
 	
 	}
 
