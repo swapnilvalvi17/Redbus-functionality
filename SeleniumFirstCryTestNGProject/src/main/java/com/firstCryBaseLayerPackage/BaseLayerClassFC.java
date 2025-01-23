@@ -14,6 +14,7 @@ public class BaseLayerClassFC {
 	public static void initialization(String browserName, String url) {
 		
 		System.out.println("shruti upadate");
+		System.out.println("Update approved");
 		
 		if (browserName.equals("chrome")) 
 		{
